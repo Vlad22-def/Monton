@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color:rgb(39, 38, 38);
+    color:white;
+    font-family: "Work Sans", 
+                 sans-serif;
+    margin: 0;
+    padding: 2vw;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 20px 50px;
+align-items: center;
+}
+
+
+
+.logo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    gap: 30px;
+}
+
+.hero-text { flex: 1; }
+.hero-card { flex: 1; max-width: 510px; border-radius: 20px; background: #3b3b3b; overflow: hidden; }
+
+
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.thumbnails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Кнопки */
+.btn-get-started,.signup-btn
+ {
+    background-color: #a259ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.more-count {
+    background-color: #a259ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
